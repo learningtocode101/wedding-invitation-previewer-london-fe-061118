@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Wedding Invitations</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="container">
+      <header>  
+        <h1>Wedding Invitation Designer</h1>
+      </header>
+      <nav>
+        <a href="#" id="formal">Formal</a>
+        <a href="#" id="dark">Dark</a>
+        <a href="#" id="simple">Simple</a>
+      </nav>
+      <aside>
+        <table>
+          <tr>
+            <td>
+              1st Name: 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="Enter 1st name" id="firstName" type="text" contenteditable="true" class="inputArea">
+            </td>
+          </tr>
+           <tr>
+            <td>
+              2nd Name: 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="Enter 2nd name" type="text" id="secondName" class="inputArea">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Last Name: 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="Enter last name" type="text" id="lastName" class="inputArea">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Date: 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="Enter wedding date" type="date" id="dateInput" class="inputArea">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Wedding Location: 
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="Enter wedding location" id="locationInput" class="inputArea">
+            </td>
+          </tr>
+        </table>
+      </aside>
+      
+      <div id="imageHolder">
+        <div id="details">
+          <h2 id="nameInitials"></h2>
+          <p>You are cordially invited to the wedding of:</p>
+          <h2 class="name" id="firstNameAdd"></h2> <span>and</span>
+          <h2 class="name" id="secondNameAdd"></h2>
+          <h2 id="lastNameAdd"></h2>
+          <p>ON</p>
+          <h2 id="weddingDateAdd"></h2>
+          <p>AT</p>
+          <h2 id="weddingLocationAdd"></h2>
+        </div> <!-- end initials div -->
+      </div> <!-- end imageHolder div -->
+    </div> <!-- end container div -->
+    
+    <script type="text/javascript" src="script.js"> </script>
+  </body>
+</html>

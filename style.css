@@ -1,0 +1,89 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  background-image: url('https://wallpaperlayer.com/img/2015/9/wedding-background-8168-8484-hd-wallpapers.jpg');
+  background-repeat: no-repeat fixed;
+  background-position: top right;
+  background-size: cover;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+.container{
+  margin: 0 auto;
+  height: 800px;
+}
+
+header{
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+h1{
+  text-align: center;
+}
+
+nav {
+  margin-left: 4.8em;
+  margin-bottom: 15px;
+  position: fixed;
+}
+
+nav a{
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+nav a:hover{
+  color: red;
+}
+
+aside{
+  /*width:50%;*/
+  float: left;
+  position: fixed;
+  margin-top: 60px;
+}
+
+table{
+  margin-left: 100px;
+}
+
+.inputArea{
+  height: 1.8em;
+  width: 25em;
+  padding:0.2em;
+}
+
+#imageHolder{
+  /*position: fixed;*/
+  border-radius: 15px;
+  float: left;
+  max-height: 600px;
+  width: 500px;
+  background-color: #f7a1c2;
+  box-shadow: 18px 17px 17px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 18px 17px 17px 0px rgba(0,0,0,0.61);
+  -moz-box-shadow: 18px 17px 17px 0px rgba(0,0,0,0.61);
+  margin-left: 455px;
+  
+}
+
+#details{
+  /*margin-top: 70px;*/
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 12px;
+  /*height: auto;*/
+  border-radius: 15px;
+}
+
+.name{
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold;
+}
