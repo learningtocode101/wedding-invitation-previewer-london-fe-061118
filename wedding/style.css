@@ -100,13 +100,6 @@ table{
   font-weight: bold;
 }
 
-/*footer{*/
-/*  clear:both;*/
-/*  position: relative;*/
-/*  bottom:0;*/
-/*  top: 200px;*/
-/*  left:100px;*/
-/*}*/
 @media only screen and (max-width: 900px){
   #imageHolder{
   width: 500px;
@@ -145,7 +138,7 @@ table{
   nav{
   margin-left: 10px;
   width:80%;
-}
+  }
   nav a{
   font-size:1em;
   }
