@@ -2,21 +2,20 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
   background-image: url('https://wallpaperlayer.com/img/2015/9/wedding-background-8168-8484-hd-wallpapers.jpg');
-  background-repeat: no-repeat fixed;
+  background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
   font-size: 1.2em;
-  overflow: hidden;
-}
-.container{
+  /*overflow: hidden;*/
   margin: 0 auto;
-  height: 800px;
+  height: auto;
 }
 
 header{
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0, .1);
+  color: rgb(247,161,194);
+  text-shadow:2px 1px rgba(0, 0, 0, .5) ;
 }
-
 
 h1{
   text-align: center;
@@ -26,6 +25,7 @@ nav {
   margin-left: 4.8em;
   margin-bottom: 15px;
   position: fixed;
+  background-color: rgba(0, 0, 0, .1);
 }
 
 nav a{
@@ -43,7 +43,6 @@ nav a:hover{
 }
 
 aside{
-  /*width:50%;*/
   float: left;
   position: fixed;
   margin-top: 60px;
@@ -63,27 +62,55 @@ table{
   /*position: fixed;*/
   border-radius: 15px;
   float: left;
-  max-height: 600px;
+  height: auto;
   width: 500px;
-  background-color: #f7a1c2;
-  box-shadow: 18px 17px 17px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 18px 17px 17px 0px rgba(0,0,0,0.61);
-  -moz-box-shadow: 18px 17px 17px 0px rgba(0,0,0,0.61);
-  margin-left: 455px;
+  background-color: rgba(247,161,194, .1); /*#F7A1C2*/
+  box-shadow: 18px 17px 17px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: 18px 17px 17px 0px rgba(0, 0, 0, .41);
+  -moz-box-shadow: 18px 17px 17px 0px rgba(0, 0, 0, .41);
+  margin-left: 500px;
   
 }
 
 #details{
-  /*margin-top: 70px;*/
+  margin-top: 100px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, .1);
   padding: 12px;
-  /*height: auto;*/
-  border-radius: 15px;
+  height: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .name{
   display: inline;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 900px){
+  #imageHolder{
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #imageHolder{
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 450px;
+  }
+  aside{
+  float: left;
+  margin-top: 120px;
+  }
+  table{
+  margin-left: 10px;
+  }
+  nav {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
 }

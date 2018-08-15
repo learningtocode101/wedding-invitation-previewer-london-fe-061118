@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   
   <head>
     <title>Wedding Invitations</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Modern+Antiqua" rel="stylesheet">
   </head>
   
   <body>
-    <div class="container">
       <header>  
         <h1>Wedding Invitation Designer</h1>
       </header>
@@ -47,7 +48,7 @@
           </tr>
           <tr>
             <td>
-              <input placeholder="Enter last name" type="text" id="lastName" class="inputArea">
+              <input type="text" id="lastName" class="inputArea">
             </td>
           </tr>
           <tr>
@@ -57,7 +58,7 @@
           </tr>
           <tr>
             <td>
-              <input placeholder="Enter wedding date" type="date" id="dateInput" class="inputArea">
+              <input type="date" id="dateInput" class="inputArea">
             </td>
           </tr>
           <tr>
@@ -67,7 +68,7 @@
           </tr>
           <tr>
             <td>
-              <input placeholder="Enter wedding location" id="locationInput" class="inputArea">
+              <input id="locationInput" class="inputArea">
             </td>
           </tr>
         </table>
@@ -75,9 +76,9 @@
       
       <div id="imageHolder">
         <div id="details">
-          <h2 id="nameInitials"></h2>
+          <h2 id="firstInitials" class="name"></h2>&nbsp;<span>&</span>&nbsp;<h2 id="secondInitials" class="name"></h2>
           <p>You are cordially invited to the wedding of:</p>
-          <h2 class="name" id="firstNameAdd"></h2> <span>and</span>
+          <h2 class="name" id="firstNameAdd"></h2> <span>&</span>
           <h2 class="name" id="secondNameAdd"></h2>
           <h2 id="lastNameAdd"></h2>
           <p>ON</p>
@@ -86,8 +87,7 @@
           <h2 id="weddingLocationAdd"></h2>
         </div> <!-- end initials div -->
       </div> <!-- end imageHolder div -->
-    </div> <!-- end container div -->
     
-    <script type="text/javascript" src="script.js"> </script>
+    <script src="script.js"> </script>
   </body>
 </html>
