@@ -1,31 +1,36 @@
 body{
-  font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
   background-image: url('https://wallpaperlayer.com/img/2015/9/wedding-background-8168-8484-hd-wallpapers.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
   font-size: 1.2em;
-  /*overflow: hidden;*/
   margin: 0 auto;
   height: auto;
 }
 
 header{
-  background-color: rgba(0,0,0, .1);
+  background-color: #c0c0c0;
+  background-color: rgba(192, 192, 192, .3);
   color: rgb(247,161,194);
-  text-shadow:2px 1px rgba(0, 0, 0, .5) ;
+  text-shadow:2px 1px rgba(0, 0, 0, .5);
+  padding-top:.5px;
+  padding-bottom: .5px;
 }
 
-h1{
+#mainTitle{
   text-align: center;
+  font-size:4em;
 }
 
 nav {
   margin-left: 4.8em;
   margin-bottom: 15px;
+  margin-top: 15px;
   position: fixed;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(192, 192, 192, .3);
 }
 
 nav a{
@@ -34,12 +39,14 @@ nav a{
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(192, 192, 192);
   padding-right: 15px;
+  color:rgb(33, 145, 187);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
 }
 
 nav a:hover{
-  color: red;
+  color: rgb(247,161,194);
 }
 
 aside{
@@ -50,6 +57,7 @@ aside{
 
 table{
   margin-left: 100px;
+  margin-top: 25px;
 }
 
 .inputArea{
@@ -59,22 +67,26 @@ table{
 }
 
 #imageHolder{
-  /*position: fixed;*/
   border-radius: 15px;
   float: left;
   height: auto;
   width: 500px;
-  background-color: rgba(247,161,194, .1); /*#F7A1C2*/
+  border: 5px solid #c0c0c0;
+  border: 5px solid rgba(192, 192, 192, .4);
+  background-color: #808080;
+  background-color: rgba(247,161,194, .1);
   box-shadow: 18px 17px 17px rgba(0, 0, 0, .4);
   -webkit-box-shadow: 18px 17px 17px 0px rgba(0, 0, 0, .41);
   -moz-box-shadow: 18px 17px 17px 0px rgba(0, 0, 0, .41);
   margin-left: 500px;
+  margin-top: 16px;
   
 }
 
 #details{
   margin-top: 100px;
   text-align: center;
+  background-color:#ffffff;
   background-color: rgba(255, 255, 255, .1);
   padding: 12px;
   height: auto;
@@ -88,29 +100,57 @@ table{
   font-weight: bold;
 }
 
+/*footer{*/
+/*  clear:both;*/
+/*  position: relative;*/
+/*  bottom:0;*/
+/*  top: 200px;*/
+/*  left:100px;*/
+/*}*/
 @media only screen and (max-width: 900px){
   #imageHolder{
   width: 500px;
-  margin-left: 80px;
-  margin-top: 400px;
+  margin-left: 100px;
+  margin-top: 16px;
+  }
+  aside{
+  position:relative;
+  margin-top: -31px;
+  }
+  nav {
+  margin-left: 100px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 50%;
+  }
+  #mainTitle{ 
+    font-size:3em;
   }
 }
+  
 
 @media only screen and (max-width: 600px){
   #imageHolder{
   width: 350px;
   margin-left: 10px;
-  margin-top: 450px;
+  margin-top: 16px;
   }
   aside{
   float: left;
-  margin-top: 120px;
+  margin-top: 0px;
   }
   table{
   margin-left: 10px;
   }
-  nav {
+  nav{
   margin-left: 10px;
-  margin-bottom: 15px;
+  width:80%;
 }
+  nav a{
+  font-size:1em;
+  }
+#mainTitle{ 
+    font-size:2em;
+  }
+
 }

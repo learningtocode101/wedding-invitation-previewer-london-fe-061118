@@ -13,6 +13,7 @@ function formalChange(){
     document.querySelector('#imageHolder').style.font = "1.2em Allura, serif";
     document.querySelector('#imageHolder').style.textShadow = "2px 1px 1px #fefefe";
     document.querySelector('#imageHolder').style.color = "#ff0a68";
+    document.querySelector('#imageHolder').style.border = "none";
   });
 }
 
@@ -23,6 +24,7 @@ function darkChange(){
     document.querySelector('#imageHolder').style.font = "1em 'Modern Antiqua', serif";
     document.querySelector('#imageHolder').style.textShadow = "1px 2px 1px #000000";
     document.querySelector('#imageHolder').style.color = "#ffffff";
+    document.querySelector('#imageHolder').style.border = "none";
 });
 }
 
@@ -34,6 +36,7 @@ function simpleChange(){
     document.querySelector('#imageHolder').style.font = "bold 1em Coming Soon, serif";
     document.querySelector('#imageHolder').style.textShadow = "1px 1px 1px #ffffff";
     document.querySelector('#imageHolder').style.color = "#262e1f";
+    document.querySelector('#imageHolder').style.border = "none";
 });
 }
 
