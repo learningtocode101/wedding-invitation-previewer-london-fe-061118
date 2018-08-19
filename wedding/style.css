@@ -18,6 +18,7 @@ header{
   text-shadow:2px 1px rgba(0, 0, 0, .5);
   padding-top:.5px;
   padding-bottom: .5px;
+  width: 100%;
 }
 
 #mainTitle{
@@ -117,9 +118,7 @@ table{
   width: 50%;
   }
   #mainTitle{ 
-  font-size:3em;
-  margin-left: 80px;
-  margin-top: 420px;
+    font-size:3em;
   }
 }
   
