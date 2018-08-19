@@ -65,10 +65,15 @@ function nameUpdate(){
   
 function initialsUpdate(){
   document.getElementById('firstName').addEventListener("input", e =>{
-    document.getElementById('firstInitials').innerHTML = firstName.charAt(0);
+    if (firstName.value !== 0){
+    document.getElementById('firstInitials').innerHTML = firstName.value[0];
+    }
+    else{
+      document.getElementById('firstInitials').innerHTML = ;
+    }
   })
   document.getElementById('lastName').addEventListener("input", e =>{
-    document.getElementById('secondInitials').innerHTML = secondName.charAt(0);
+    document.getElementById('secondInitials').innerHTML = secondName.value[0];
   })
 }
   
