@@ -65,12 +65,7 @@ function nameUpdate(){
   
 function initialsUpdate(){
   document.getElementById('firstName').addEventListener("input", e =>{
-    if (firstName.value !== 0){
     document.getElementById('firstInitials').innerHTML = firstName.value[0];
-    }
-    else{
-      document.getElementById('firstInitials').innerHTML = "";
-    }
   })
   document.getElementById('lastName').addEventListener("input", e =>{
     document.getElementById('secondInitials').innerHTML = secondName.value[0];
