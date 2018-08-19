@@ -69,7 +69,7 @@ function initialsUpdate(){
     document.getElementById('firstInitials').innerHTML = firstName.value[0];
     }
     else{
-      document.getElementById('firstInitials').innerHTML = ;
+      document.getElementById('firstInitials').innerHTML = "";
     }
   })
   document.getElementById('lastName').addEventListener("input", e =>{
